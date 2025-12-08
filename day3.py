@@ -11,6 +11,7 @@ def part1(line: str) -> int:
 
 
 def part2(line: str, k: int = 12) -> int:
+    # Unfortunately, such an elegant solution is written by AI.
     stack = []
     to_remove = len(line) - k
     for c in line:
